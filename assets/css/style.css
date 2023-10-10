@@ -28,8 +28,18 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 }
 
+header a {
+    /* Override browser's default link underlining */
+    text-decoration: none;
+    /* Override browser's default link color by inheriting color from body */ 
+    color: inherit;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: #252525;
 }
 
 /* Main content */
