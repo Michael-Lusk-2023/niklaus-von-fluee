@@ -18,6 +18,13 @@ body {
     font-family: 'lato', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: #252525;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -36,13 +43,6 @@ header a {
     text-decoration: none;
     /* Override browser's default link color by inheriting color from body */ 
     color: inherit;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    color: #252525;
 }
 
 #menu {
@@ -99,6 +99,30 @@ main {
     background: url("../images/hero-image.webp") no-repeat 70% 50%/cover;
     /* Background-color to apply in case hero-mimage fails to load */
     background-color: #d38957;
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets an opacity in the semi-transparent range */
+    background-color: rgba(211, 137, 87, 0.7);
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
+    min-height: 130px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+        color: #ffffff;
+}
+
+#cover-text > h2 {
+    font-size: 190%;
+}
+
+#cover-text > h3 {
+    font-size: 140%;
 }
 
 /* Footer */
@@ -150,6 +174,15 @@ main {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+    }
+
+    /* Hero section */
+    #cover-text {
+        width: 40%;
+        bottom: 30px;
+        min-height: 150px;
+        padding-top: 40px;
+        padding-left: 25px;
     }
 } 
 
