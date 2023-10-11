@@ -89,7 +89,7 @@ main {
     /* Grow main element to occupy surplus space, thereby keeping the footer pushed down */
     flex: 1 0 auto;
     /* Push main element down to prevent partial occlusion by fixed header" */
-    margin-top: 47px;
+    margin-top: 41px;
 }
 
 /* Hero section */
