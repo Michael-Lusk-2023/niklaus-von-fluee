@@ -228,6 +228,24 @@ main {
         padding-top: 40px;
         padding-left: 25px;
     }
+
+    /* Biography section */
+    #biography-ordinary,
+    #biography-extraordinary {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+        #biography-ordinary > div,
+        #biography-extraordinary > div {
+            width: 75%;
+        }
+
+        #biography-extraordinary > div {
+            text-align: end;
+            align-self: flex-end;
+        }
 } 
 
 /* Media query: laptops and larger (992px and up) */
@@ -235,5 +253,34 @@ main {
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #d38957;
+    }
+}
+
+/* Media query: large screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Biography section */
+    #biographical-notes {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #biographical-notes > div {
+        flex: 1;
+    }
+
+    #biography-image {
+        order: 0;
+    }
+
+    #biography-extraordinary {
+        order: 1;
+    }
+
+    #biography-ordinary > div {
+        align-self: flex-start;
+    }
+
+    #biography-extraordinary > div {
+        align-self: flex-end;
     }
 }
