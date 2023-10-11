@@ -86,11 +86,17 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Grow main element to occupy surplus space, thereby keeping the footer pushed down */
     flex: 1 0 auto;
     /* Push main element down to prevent partial occlusion by fixed header" */
     margin-top: 47px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat 70% 50%/cover;
 }
 
 /* Footer */
