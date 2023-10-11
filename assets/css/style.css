@@ -96,7 +96,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat 70% 50%/cover;
+    background: url("../images/hero-image.webp") no-repeat 70% 50% / cover;
     /* Background-color to apply in case hero-mimage fails to load */
     background-color: #d38957;
     position: relative;
@@ -123,6 +123,49 @@ main {
 
 #cover-text > h3 {
     font-size: 140%;
+}
+
+/* Biography section */
+#biography {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#biography h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 180%;
+}
+
+#biography-ordinary > div, #biography-extraordinary > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#biographical-notes p {
+    padding: 0 20px;
+}
+
+#biographical-notes hr {
+    border-top: 1px solid #d38957;
+    margin: 5px 0;
+}
+
+#circle-cover-bg {
+    height: 90vw;
+    max-height: 300px;
+    width: 90vw;
+    max-width: 300px;
+    background: url("../images/biography-image.webp") no-repeat 0% 50% / cover;
+    margin-bottom: 20px;
+    /* Makes the square div into a circle, thus applying circular cropping to the image */
+    border-radius: 50%;
+}
+
+#biography-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
