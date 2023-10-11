@@ -147,6 +147,7 @@ main {
 }
 
 #biographical-notes hr {
+    color: #d38957;
     border-top: 1px solid #d38957;
     margin: 5px 0;
 }
