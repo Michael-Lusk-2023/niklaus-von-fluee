@@ -174,6 +174,36 @@ main {
     height: 400px;
     width: 100%;
     background: url("../images/prayer-image.webp") no-repeat center center / cover;
+    position: relative;
+}
+
+#prayer-text {
+    /* Final rgba value sets an opacity in the semi-transparent range */
+    background-color: rgba(211, 137, 87, 0.7);
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
+    min-height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#prayer-text > h3,
+#prayer-text > div {
+    color: #ffffff;
+}
+
+#prayer-text > div {
+    margin-top: 1rem;
+}
+
+#prayer-text p {
+    font-weight: bold;
+}
+
+#stanza-amen p {
+    font-style: italic;
 }
 
 /* Footer */
