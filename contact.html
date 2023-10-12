@@ -40,7 +40,37 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section id="contact">
+            <form id="contact-form">
+                <h2><i class="fa-solid fa-circle-info"></i> Request Resources</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Surname</label>
+                <input type="text" name="last-name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email-address" id="email-address" class="text-input" required>
+                <br>
+                <div class="checkboxes">
+                    <div>
+                        <label for="guided-tour">Guided Tour</label>
+                        <input type="checkbox" name="resources-request" id="guided-tour" value="guided-tour" required>
+                    </div>
+                    <div>
+                        <label for="pilgrimage">Pilgrimage</label>
+                        <input type="checkbox" name="resources-request" id="pilgrimage" value="pilgrimage" required>
+                    </div>
+                    <div>
+                        <label for="literature">Literature</label>
+                        <input type="checkbox" name="resources-request" id="literature" value="literature" required>
+                    </div>
+                </div>
+                <button type="submit" class="go-deeper-button">Go Deeper</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
