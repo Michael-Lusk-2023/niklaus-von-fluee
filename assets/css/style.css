@@ -206,6 +206,17 @@ main {
     font-style: italic;
 }
 
+/* Gallery page */
+#photos > img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    /* Remove white space between images in the photos div */
+    line-height: 0
+}
+
 /* Footer */
     #social-networks {
         text-align: center;
