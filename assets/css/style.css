@@ -234,6 +234,11 @@ main {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+    /* Meditative prayer section */
+    #prayer-text {
+        width: 50%;
+    }
+    
     /* Gallery page */
     #photos {
         column-count: 2;
