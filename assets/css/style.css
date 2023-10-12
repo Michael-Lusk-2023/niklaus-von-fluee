@@ -274,15 +274,21 @@ main {
         width: 100%;
     }
 
-        #biography-ordinary > div,
-        #biography-extraordinary > div {
-            width: 75%;
-        }
+    #biography-ordinary > div,
+    #biography-extraordinary > div {
+        width: 75%;
+    }
 
-        #biography-extraordinary > div {
-            text-align: end;
-            align-self: flex-end;
-        }
+    #biography-extraordinary > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    /* Meditative prayer section */
+    #prayer-text {
+        width: 35%;
+        right: 30px;
+    }
 } 
 
 /* Media query: laptops and larger (992px and up) */
@@ -290,6 +296,11 @@ main {
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #d38957;
+    }
+
+    /* Meditative prayer section */
+    #prayer-text {
+        width: 30%;
     }
 }
 
@@ -319,5 +330,10 @@ main {
 
     #biography-extraordinary > div {
         align-self: flex-end;
+    }
+
+    /* Meditative prayer section */
+    #prayer-text {
+        width: 25%;
     }
 }
