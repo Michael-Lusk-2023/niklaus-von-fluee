@@ -53,18 +53,18 @@
                 <label for="email-address">Email Address</label>
                 <input type="email" name="email-address" id="email-address" class="text-input" required>
                 <br>
-                <div class="checkboxes">
+                <div class="radio-buttons">
                     <div>
-                        <input type="checkbox" name="resources-request" id="guided-tour" value="guided-tour" checked>
+                        <input type="radio" name="resources-request" id="guided-tour" value="guided-tour" checked required>
                         <label for="guided-tour">Guided Tour</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="resources-request" id="pilgrimage" value="pilgrimage">
+                        <input type="radio" name="resources-request" id="pilgrimage" value="pilgrimage" required>
                         <label for="pilgrimage">Pilgrimage</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="resources-request" id="literature" value="literature">
-                        <label for="literature">Literature</label>
+                        <input type="radio" name="resources-request" id="both" value="both" required>
+                        <label for="both">Both</label>
                     </div>
                 </div>
                 <button type="submit" class="go-within-button">Go Within</button>
