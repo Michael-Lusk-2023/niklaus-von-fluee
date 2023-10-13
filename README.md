@@ -10,17 +10,26 @@ In particular, *Niklaus von Flüe* presently comprises:
 
 It is planned further to develop the site to link directly to an existing commercial guided tour and to each of the foundations, churches and museums which administer access to heritage places in relation to Niklaus von Flüe. In a later development stage, the website may be extended further to include a literature list and copies of scholarly publications which are difficult to access.
 
-*Niklaus von Flüe* will serve tourists and pilgrims by providing a central hub for accessing practical information and resources related to Niklaus von Flüe. It additionally should serve the relevant tour operater, foundations, churches, and museums by directing customers towards them.
+*Niklaus von Flüe* will serve tourists and pilgrims by providing a central hub for accessing practical information and resources related to Niklaus von Flüe. It additionally will serve an established tour operater as well as relevant foundations, churches, and museums, in each case by nudging customers towards them.
+
 
 ![Responsive Mockup](media/niklaus-von-fluee-mockup.webp)
 
+
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+This section describes features presently implemented in *Niklaus von Flüe* and outlines planned features which remain to be implemented.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - The fully responsive navigation bar provides links to the Logo, Home page, Gallery and Contact page.
+  - To facilitate first-use learning, the navigation bar is implemented in the same form across all pages.
+  - For larger screens -- i.e. laptops and larger, implying use of a mouse -- the navigation bar is styled to provide user-feedback in the form of underlining to indicate hover-over in relation to clickable navigation links. 
+  - The navigation bar enables the user, across all devices, easily to navigate from page to page without use of the browser ‘back’ button.
+  
+
+  [Navigation Bar](media/niklaus-von-fluee-nav.webp)
+
+
