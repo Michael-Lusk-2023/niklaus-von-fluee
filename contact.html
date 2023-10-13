@@ -42,7 +42,7 @@
     <!-- Main content -->
     <main>
         <section id="contact">
-            <form id="contact-form">
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
                 <h2><i class="fa-solid fa-circle-info"></i> Request Resources</h2>
                 <label for="first-name">First Name</label>
                 <input type="text" name="first-name" id="first-name" class="text-input" required>
@@ -55,19 +55,19 @@
                 <br>
                 <div class="checkboxes">
                     <div>
+                        <input type="checkbox" name="resources-request" id="guided-tour" value="guided-tour" checked>
                         <label for="guided-tour">Guided Tour</label>
-                        <input type="checkbox" name="resources-request" id="guided-tour" value="guided-tour" required>
                     </div>
                     <div>
+                        <input type="checkbox" name="resources-request" id="pilgrimage" value="pilgrimage">
                         <label for="pilgrimage">Pilgrimage</label>
-                        <input type="checkbox" name="resources-request" id="pilgrimage" value="pilgrimage" required>
                     </div>
                     <div>
+                        <input type="checkbox" name="resources-request" id="literature" value="literature">
                         <label for="literature">Literature</label>
-                        <input type="checkbox" name="resources-request" id="literature" value="literature" required>
                     </div>
                 </div>
-                <button type="submit" class="go-deeper-button">Go Deeper</button>
+                <button type="submit" class="go-within-button">Go Within</button>
             </form>
         </section>
     </main>

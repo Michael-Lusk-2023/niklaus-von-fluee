@@ -88,7 +88,7 @@ nav {
 main {
     /* Grow main element to occupy surplus space, thereby keeping the footer pushed down */
     flex: 1 0 auto;
-    /* Push main element down to prevent partial occlusion by fixed header" */
+    /* Push main element down to prevent partial occlusion by fixed header */
     margin-top: 41px;
 }
 
@@ -217,6 +217,67 @@ main {
     line-height: 0
 }
 
+/* Contact page */
+main {
+    /* Grow main element to occupy surplus space, thereby keeping the footer pushed down */
+        flex: 1 0 auto;
+    /* Push main element down to prevent partial occlusion by fixed header */
+    margin-top: 41px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form */
+#contact {
+    height: 600px;
+    width: 100%;
+    background: url("../images/contact-image.webp") no-repeat 35% 50% / cover;
+    /* Background-color to apply in case hero-mimage fails to load */
+    background-color: #d38957;
+    padding: 180px 10px 0 10px;
+    flex-grow: 1;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.7);
+    padding: 30px;
+}
+
+#contact-form > h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+.checkboxes > div {
+    padding-bottom: 10px;
+}
+
+.checkboxes label {
+    padding-left: 5px;
+}
+
+.go-within-button {
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 100%;
+    color: #fafafa;
+    background-color: rgba(211, 137, 87, 0.7)
+}
+
 /* Footer */
     #social-networks {
         text-align: center;
@@ -243,6 +304,15 @@ main {
     #photos {
         column-count: 2;
         column-gap: 0;
+    }
+
+    /* Form */
+    #contact {
+        padding: 270px 10px 0 10px;
+    }
+
+    #contact-form {
+        width: 80%;
     }
 }
 
@@ -318,6 +388,19 @@ main {
     #photos {
         column-count: 3;
     }
+
+    /* Form */
+    #contact {
+        background-position: 30% 0;
+        position: relative;
+    }
+
+    #contact-form {
+        max-width: 400px;
+        position: absolute;
+        left: 6%;
+        top: 270px;
+    }
 } 
 
 /* Media query: laptops and larger (992px and up) */
@@ -369,5 +452,10 @@ main {
     /* Meditative prayer section */
     #prayer-text {
         width: 25%;
+    }
+
+    /* Form */
+    #contact-form {
+        top: 200px;
     }
 }
