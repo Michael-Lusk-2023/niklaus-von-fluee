@@ -37,7 +37,7 @@ This section describes features presently implemented in *Niklaus von Flüe* and
 
   - The landing page commences with an eye-catching detail of Niklaus von Flüh as depicted in the monument to him located in the Sachseln village square.
   - A text overlay inspires user-interest with the evocative subtitle "A Swiss Enigma" and practically assists the user by providing a specific geographical reference to "Sachseln, Obwalden".
-  - 
+  
 
 ![Landing Page](media/niklaus-von-fluee-landing-page.webp)
 
@@ -56,7 +56,7 @@ This section describes features presently implemented in *Niklaus von Flüe* and
   - This section speaks especially to users who are interested in pilgrimage or in pre-renaissance art.
   - It presents --
     - an English translation of Niklaus von Flüh's well-known prayer; and
-    - a detail of the religious mandala devised by Niklaus von Flüe to represent his conception of dynamics associated with an undivided godhead.
+    - a detail of the religious mandala devised by Niklaus von Flüe to explain his understanding of dynamics associated with an undivided godhead.
 
 
 ![Meditative prayer](media/niklaus-von-fluee-prayer.webp)
