@@ -1,39 +1,26 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# [Niklaus von Flüe](README.md)
 
-Welcome,
+*Niklaus von Flüe* is a site that provides prospective tourists and pilgrims with introductory information and resources in connection with the eponymous hermit, hero, and patron saint of Switzerland.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+In particular, *Niklaus von Flüe* presently comprises:
+- outline biographical information about Niklaus von Flüe;
+- an English translation of Niklaus von Flüe's well-known prayer;
+- a gallery providing impressions of relevant cultural artefacts in the region of Sachseln, Switzerland; and
+- a contact form for requesting information and resources about relevant guided tours and pilgims' ways.  
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+It is planned further to develop the site to link directly to an existing commercial guided tour and to each of the foundations, churches and museums which administer access to heritage places in relation to Niklaus von Flüe. In a later development stage, the website may be extended further to include a literature list and copies of scholarly publications which are difficult to access.
 
-## Codeanywhere Reminders
+*Niklaus von Flüe* will serve tourists and pilgrims by providing a central hub for accessing practical information and resources related to Niklaus von Flüe. It additionally should serve the relevant tour operater, foundations, churches, and museums by directing customers towards them.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![Responsive Mockup](media/niklaus-von-fluee-mockup.webp)
 
-`python3 -m http.server`
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Existing Features
 
-`http_server`
+- __Navigation Bar__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
