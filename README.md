@@ -6,19 +6,17 @@
 - outline biographical information about Niklaus von Flüe;
 - an English translation of Niklaus von Flüe's well-known prayer;
 - a gallery providing impressions of relevant cultural artefacts in the region of Sachseln, Switzerland; and
-- a contact form for requesting information and resources about relevant guided tours and pilgims' ways.  
+- a contact form for requesting information and resources about relevant guided tours and pilgim ways.  
 
-It is planned further to develop the website to integrate into its content promotion of an existing commercial guided tour operator as well as each of the organizations which administer access to relevant heritage places. At the following development stage, it is planned to make the website multilingual. In a later development stage, the website may be extended to support readers by further including a literature list and releted resources.
+In a second development stage it is planned to integrate into the website content promotion of an existing commercial guided tour operator as well as each of the organizations which administer access to relevant heritage places. In a third development stage, it is planned to make the website multilingual. In a fourth development stage, the website may be extended to support readers by further including a literature list and releted resources.
 
-*Niklaus von Flüe* will serve tourists and pilgrims by providing a central hub for accessing essential information and practical resources. It additionally will benefit an established tour operater as well as relevant foundations, churches, and museums, in each case by informing prospects concerning their respective services.
+*Niklaus von Flüe* will serve tourists and pilgrims by providing a central hub for accessing essential information and practical resources. It additionally will benefit an established tour operater as well as relevant foundations, churches, and museums, in each case by informing potential customers concerning their respective services.
 
 
 ![Responsive Mockup](media/niklaus-von-fluee-mockup.webp)
 
 
 ## Features
-
-This section describes features presently implemented in *Niklaus von Flüe* and outlines planned features which remain to be implemented.
 
 ### Existing Features
 
@@ -94,7 +92,7 @@ This section describes features presently implemented in *Niklaus von Flüe* and
 
 - __Promotion of partner organizations__
 
-  - This page will allow the user directly to book guided tours offered by the website's tourism partner, in relation to which the website will negotiate a commission.
+  - This page will allow the user directly to book guided tours offered by the website's tourism partner, in relation to which the website operator will negotiate a commission.
   - This page additionally will comprise a resources hub providing links to partner foundations, churches and museums.
 
 - __Multilingual support__
@@ -114,12 +112,12 @@ This section describes features presently implemented in *Niklaus von Flüe* and
 
 The author conducted testing throughout the development process and at the conclusion of development. In consequence of this testing activity, numerous corrections were made to the code and the content of the website. These corrections are noted up in the project's commit log.
 
-The following website features were tested for proper functionality by accessing the deployed code using two different mobile phones, a tablet, and a large format laptop:
-- landing page
-- logo link
-- navigation bar links
-- footer links
-- contact form  
+The following website features were tested for proper functionality by accessing the deployed code using two different mobile phones, a tablet, and a large-format laptop:
+- landing page;
+- logo link;
+- navigation bar links;
+- footer links; and
+- contact form input and submit elements.
 
 All the links function correctly, as do the validation and submit functions of the contact form.
 
@@ -135,7 +133,7 @@ The following issues disclosed by testing remain to be addressed:
     -  [Gallery page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fgallery.html); or
     - [Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fcontact.html).
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 ### Unfixed Bugs
 
@@ -145,16 +143,16 @@ The website contains no unfixed bugs that are known to the author.
 
 - The website is deployed to GitHub pages.
 - The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - In the Setting  tab, click on Pages in the Code and Automation menu located in the left-hand panel
-  - The GitHub Pages page will load
+  - In the GitHub repository, navigate to the Settings tab;
+  - In the Setting  tab, click on Pages in the Code and Automation menu located in the left-hand panel;
+  - The GitHub Pages page will load;
   - On the GitHub Pages page, select the following specifications, then click Save:
-    - Source - deploy from branch
-    - Branch - Main
-    - Folder - Root
+    - Source - deploy from branch;
+    - Branch - Main;
+    - Folder - Root; and
   - Wait a moment for the page to deploy, then click the link to the deployed page. 
 
-The live link for the GitHub Pages deployment is <https://michael-lusk-2023.github.io/niklaus-von-fluee/index.html>
+The live link for the GitHub Pages deployment is <https://michael-lusk-2023.github.io/niklaus-von-fluee/index.html>.
 
 
 ## Credits
@@ -170,9 +168,11 @@ Each of the HTML page structure and the CSS styling used in *Niklaus von Flüe* 
   - Wikipedia authors, Niklaus von Flüe, *Wikipedia*, available at <https://de.wikipedia.org/wiki/Niklaus_von_Fl%C3%BCe>; and
   - Wikipedia authors, Nicholas of Flüe, *Wikipedia*, available at <https://en.wikipedia.org/wiki/Nicholas_of_Fl%C3%BCe>.
 - The abovementioned sources conflict with each other in significant respects. The material presented in *Niklaus von Flüe* may contain consequential errors.
+
 - The meditative prayer section contains the author's own translation of the German original, which may be found from many sources including:
   - Förderverein Niklaus von Flüe und Dorothee Wyss, Gebet in 19 Sprachen, *Bruder Klaus*, available at <https://bruderklaus.com/niklaus-von-fluee-dorothee-wyss/gebete/bruder-klaus-gebet-in-15-sprachen/>.
-- The icons in the biography section, the footer, and the contact page are icons available without charge from [Font Awesome](https://fontawesome.com/)
+
+- The icons in the biography section, the footer, and the contact page are icons available without charge from [Font Awesome](https://fontawesome.com/).
 
 ### Media
 
