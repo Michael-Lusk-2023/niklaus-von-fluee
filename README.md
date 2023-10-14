@@ -133,7 +133,7 @@ The following issues disclosed by testing remain to be addressed:
   - No errors were returned when passing through the official W3C validator for any of:
     -  [Landing page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Findex.html);
     -  [Gallery page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fgallery.html); or
-    - [Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fcontact.html)
+    - [Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fcontact.html).
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -143,7 +143,7 @@ The website contains no unfixed bugs that are known to the author.
 
 ## Deployment
 
-- The website was deployed to GitHub pages.
+- The website is deployed to GitHub pages.
 - The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
   - In the Setting  tab, click on Pages in the Code and Automation menu located in the left-hand panel
@@ -157,3 +157,51 @@ The website contains no unfixed bugs that are known to the author.
 The live link for the GitHub Pages deployment is <https://michael-lusk-2023.github.io/niklaus-von-fluee/index.html>
 
 
+## Credits
+
+### Code
+
+Each of the HTML page structure and the CSS styling used in *Niklaus von Flüe* borrow from the page structure, styling and methods found in Code Institute's [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) preview project. While code borrowed from Love Running has been rewritten and extensively adapted, the Love Running preview project and its associated Code Institute teaching materials are the key sources upon which the code used in *Niklaus von Flüe* is based.
+
+### Content
+
+- The text for the biography section is informed by:
+  - Förderverein Niklaus von Flüe und Dorothee Wyss, Niklaus von Flüe und Dorothee Wyss - Kurzbiographien, *Bruder Klaus*, available at <https://bruderklaus.com/niklaus-von-fluee-dorothee-wyss/leben-und-wirken/kurzbiografie-2/>;
+  - Wikipedia authors, Niklaus von Flüe, *Wikipedia*, available at <https://de.wikipedia.org/wiki/Niklaus_von_Fl%C3%BCe>; and
+  - Wikipedia authors, Nicholas of Flüe, *Wikipedia*, available at <https://en.wikipedia.org/wiki/Nicholas_of_Fl%C3%BCe>.
+- The abovementioned sources conflict with each other in significant respects. The material presented in *Niklaus von Flüe* may contain consequential errors.
+- The meditative prayer section contains the author's own translation of the German original, which may be found from many sources including:
+  - Förderverein Niklaus von Flüe und Dorothee Wyss, Gebet in 19 Sprachen, *Bruder Klaus*, available at <https://bruderklaus.com/niklaus-von-fluee-dorothee-wyss/gebete/bruder-klaus-gebet-in-15-sprachen/>.
+- The icons in the biography section, the footer, and the contact page are icons available without charge from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+The media used in *Niklaus von Flüe* comprises copyright material owned by the organizations with whom the website operator proposes to cooperate. It is a feature of the website that users will reencounter the material when they later visit the websites of the respective project partners. It is expected that each proposed project partner will grant on reasonable terms a license to use the copyright material.   
+
+- The main photo used on the landing page is from an online article published by the Swiss Federal Department of Foreign Affairs:
+  - [hero-image](https://houseofswitzerland.org/sites/default/files/styles/cover_huge/public/story/cover/Untitled%20design%20%284%29_1.png?h=10d202d3&itok=_Zy0m4ov) - available at <https://houseofswitzerland.org/swissstories/history/st-nicholas-flue-genuine-swiss-legend>.
+
+- Other photos used on the home page are from Förderverein Niklaus von Flüe und Dorothee Wyss:
+  - [biography-image](https://bruderklaus.com/wp-content/uploads/2021/03/Medaillon_Spichtig_Bild-bearbeitet.jpg) - available at <https://bruderklaus.com/orte-informationen/sachseln/pfarrkirche/>; and
+  - [prayer-image](https://bruderklaus.com/wp-content/uploads/2021/03/DSC_0010_geschn-1600x400.jpg) - available at <https://bruderklaus.com/niklaus-von-fluee-dorothee-wyss/leben-und-wirken/meditationsbild-2/>.
+
+- The photo used on the contact page is from Museum Bruder Klaus:
+  - [contact-image](https://static.wixstatic.com/media/6cf4d4_a34e6ccb905344edb3c3e3ec1ff1e54d~mv2.jpeg/v1/fill/w_1903,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6cf4d4_a34e6ccb905344edb3c3e3ec1ff1e54d~mv2.jpeg) - available at <https://www.museumbruderklaus.ch/raus-aus-dem-haus>
+
+- The photos appearing in the gallery page are taken from the following sources:
+
+  - Swiss Federal Department of Foreign Affairs:
+    - [birth-house](https://houseofswitzerland.org/sites/default/files/inline-images/brother_klaus_residence_saxeln_sachseln-848780.jpg%21d.jpg) - available at <https://houseofswitzerland.org/swissstories/history/st-nicholas-flue-genuine-swiss-legend>;
+    - [museum](https://houseofswitzerland.org/sites/default/files/inline-images/2014-Sachseln-Museum-Bruder-Klaus.jpg) - available at <https://houseofswitzerland.org/swissstories/history/st-nicholas-flue-genuine-swiss-legend>; and
+    - [niklaus-statue](https://houseofswitzerland.org/sites/default/files/inline-images/2016-Boncourt-Saint-Nicolas-de-Flue.jpg) - available at <https://houseofswitzerland.org/swissstories/history/st-nicholas-flue-genuine-swiss-legend>.
+
+  - Förderverein Niklaus von Flüe und  Dorothee Wyss:
+    - [dorothee-statue](https://bruderklaus.com/wp-content/uploads/2021/03/Sachseln-Monument-de-Dorothee-03-680x1024.jpg) - available at <https://bruderklaus.com/orte-informationen/sachseln/flueeli-kapelle/>;
+    - [meditation-painting](https://bruderklaus.com/wp-content/uploads/2021/03/Meditationsbild-%C2%A9-Bruder-Klaus-Sachseln-958x1024.jpg) - available at <https://bruderklaus.com/orte-informationen/sachseln/pfarrkirche/>;
+    - [flueeli-chapel](https://bruderklaus.com/wp-content/uploads/2021/03/6073_Flueeli_Kapelle-Karl-Borromaeus_geschn-1-1024x822.jpg) - available at <https://bruderklaus.com/orte-informationen/sachseln/pilgergottesdienste/>; and
+    - [grave-altar](https://bruderklaus.com/wp-content/uploads/2021/03/Sachseln_Pfarrkirche-Grabaltar000081-%C2%A9-Bruder-Klaus-Sachseln-1024x805.jpg) - available at <https://bruderklaus.com/orte-informationen/sachseln/pfarrkirche/>.
+  
+  - Erwin Tours of Switzerland:
+    - [family-house](https://erwintours.ch/wp-content/uploads/2022/02/Saint-Niklaus-of-Flue-Tour-in-Switzerland-by-Erwin-Tours-of-Switzerland-Porsonally-Guided-Private-Tours-Switzerland-Photo-%C2%A9-Erwin-Faessler-Photography-400x300.jpg) - available at <https://erwintours.ch/tour-categories/culture-and-tradition-tours/saint-niklaus-of-flue-tour/#>;
+    - [flueeli-gorge](https://erwintours.ch/wp-content/uploads/2022/02/Saint-Niklaus-of-Flue-Tour-in-Switzerland-by-Erwin-Tours-of-Switzerland-Porsonally-Guided-Private-Tour-Switzerland-Photo-%C2%A9-Erwin-Faessler-Photography-400x300.jpg) - available at <https://erwintours.ch/tour-categories/culture-and-tradition-tours/saint-niklaus-of-flue-tour/#>; and
+    - [hermitage-chapel](https://erwintours.ch/wp-content/uploads/2022/02/Saint-Niklaus-of-Flue-Tour-in-Switzerland-by-Erwin-Tours-of-Switzerland-Tailor-made-Private-Tours-Switzerland-Photo-%C2%A9-Erwin-Faessler-Photography-400x300.jpg) - available at <https://erwintours.ch/tour-categories/culture-and-tradition-tours/saint-niklaus-of-flue-tour/#>.
