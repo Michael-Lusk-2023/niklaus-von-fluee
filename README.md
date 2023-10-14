@@ -107,3 +107,33 @@ This section describes features presently implemented in *Niklaus von Flüe* and
 - __Literature resources__
 
   - In a later development stage, the website may be extended to support readers by further including a literature list and copies of scholarly publications which are relatively difficult to access.
+  
+## Testing
+
+*Niklaus von Flüe* was deployed early in its development to [GitHub](https://michael-lusk-2023.github.io/niklaus-von-fluee/index.html) in order to facilitate third-party testing during and at the conclusion of the development process. Continuous feedback was received from a primary third-party tester. This feedback flowed into and informed testing by the author.
+
+The author conducted testing throughout the development process and at the conclusion of development. In consequence of this testing activity, numerous corrections were made to the code and the content of the website. These corrections are noted up in the project's commit log.
+
+The following website features were tested for proper functionality by accessing the deployed code using two different mobile phones, a tablet, and a large format laptop:
+- landing page
+- logo link
+- navigation bar links
+- footer links
+- contact form  
+
+All the links function correctly, as do the validation and submit functions of the contact form.
+
+The following issues disclosed by testing remain to be addressed:
+- On small mobile phone screens, too little of the hero image on landing page is displayed.
+- On small mobile phone screens, the gray-colored div overlaid on the background image extends below the bottom of the background image and the footer.
+
+### Validator testing
+
+- HTML
+  - No errors were returned when passing through the official W3C validator for any of:
+    -  [Landing page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Findex.html);
+    -  [Gallery page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fgallery.html); or
+    - [Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fcontact.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
