@@ -137,3 +137,23 @@ The following issues disclosed by testing remain to be addressed:
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmichael-lusk-2023.github.io%2Fniklaus-von-fluee%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+### Unfixed Bugs
+
+The website contains no unfixed bugs that are known to the author.
+
+## Deployment
+
+- The website was deployed to GitHub pages.
+- The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - In the Setting  tab, click on Pages in the Code and Automation menu located in the left-hand panel
+  - The GitHub Pages page will load
+  - On the GitHub Pages page, select the following specifications, then click Save:
+    - Source - deploy from branch
+    - Branch - Main
+    - Folder - Root
+  - Wait a moment for the page to deploy, then click the link to the deployed page. 
+
+The live link for the GitHub Pages deployment is <https://michael-lusk-2023.github.io/niklaus-von-fluee/index.html>
+
+
