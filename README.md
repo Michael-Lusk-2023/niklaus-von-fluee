@@ -8,7 +8,7 @@
 - a gallery providing impressions of relevant cultural artefacts in the region of Sachseln, Switzerland; and
 - a contact form for requesting information and resources about relevant guided tours and pilgims' ways.  
 
-It is planned further to develop the website to integrate into its content promotion of an existing commercial guided tour operator as well as each of the foundations, churches and museums which administer access to relevant heritage places. At the following development stage, it is planned to make the website multilingual, additionally supporting French, German, Italian, languages. Support of Portuguese, Russian, and Spanish languages may be added in a succeeding implementation. In a later development stage, the website may be extended to support readers by further including a literature list and copies of scholarly publications which are relatively difficult to access.
+It is planned further to develop the website to integrate into its content promotion of an existing commercial guided tour operator as well as each of the organizations which administer access to relevant heritage places. At the following development stage, it is planned to make the website multilingual. In a later development stage, the website may be extended to support readers by further including a literature list and releted resources.
 
 *Niklaus von Flüe* will serve tourists and pilgrims by providing a central hub for accessing essential information and practical resources. It additionally will benefit an established tour operater as well as relevant foundations, churches, and museums, in each case by informing prospects concerning their respective services.
 
@@ -82,8 +82,9 @@ This section describes features presently implemented in *Niklaus von Flüe* and
 
 - __Contact page__
 
-  - This page will allow the user to reach out for resources. The user is requested to specify whether he or she would like to receive resources in relation to guided tours, pilgimage, or both types of activity.
+  - This page allows the user to request resources from the website operator. The user is requested to specify whether he or she would like to receive resources in relation to guided tours, pilgimage, or both types of activity.
   - The user will be asked to submit his or her full name and email address.
+  - The user form uses validation which permits submission of the form only when text is entered in the text inputs, the email address text input contains an "@" symbol, and the radio buttons specify a resource type.
 
 
 ![Contact](media/niklaus-von-fluee-contact.webp)
@@ -93,5 +94,16 @@ This section describes features presently implemented in *Niklaus von Flüe* and
 
 - __Promotion of partner organizations__
 
-  - This page will allow the user directly to book guided tours offered by the tourism partner, in relation to which the website will negotiate a commission.
-  - It additionally will comprise a resources hub comprising links to partner foundations, churches and museums.
+  - This page will allow the user directly to book guided tours offered by the website's tourism partner, in relation to which the website will negotiate a commission.
+  - This page additionally will comprise a resources hub providing links to partner foundations, churches and museums.
+
+- __Multilingual support__
+
+  - As interest in pilgrimage currently is increasing in Europe and the European diaspora, it is intended to make the website more broadly accessible by providing multilingual support.
+  - The first multilingual implementation will support French, German, and Italian, languages, which are the national languages of Switzerland.
+  - A subsequent multilingual implementation might be made to support Portuguese, Russian, and Spanish languages, reflecting nationalities frequently traveling to Switzerland for tourism purposes.
+  - A possible further multilingual implementation would be made to support Chinese, Korean, and Japanese languages in an effort to reach out to tourism visitors from East Asia, who increasingly are visiting Switzerland.
+
+- __Literature resources__
+
+  - In a later development stage, the website may be extended to support readers by further including a literature list and copies of scholarly publications which are relatively difficult to access.
